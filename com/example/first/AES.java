@@ -30,7 +30,7 @@ public class AES {
     public static void main(String[] args) {
         String plaintext = "This is a test plaintext string.";
        // String key = "1234567890123456";
-        String key = "dellLPTOPMYMMACH";
+        String key = "dellLPTOPMYMMACHN";
 
         try {
             byte[] encryptedBytes = AES.encrypt(plaintext, key);
@@ -42,4 +42,5 @@ public class AES {
             e.printStackTrace();
         }
     }
+
 }
